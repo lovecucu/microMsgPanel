@@ -4,7 +4,7 @@ header('Content-type: text/html; charset=UTF8');
 
 error_reporting(E_ALL | ~E_NOTICE | ~E_WARNING);
 
-require 'autoload.php';
+require 'Autoload.php';
 
 // 实例化一个留言(此处用来模拟前端页面获取的留言)
 $msg = new Message();
